@@ -8,9 +8,7 @@ $(document).ready(function () {
     var previouslyPaid = $('#prevPaid');
     var balanceDue = $('#balance');
 
-    var date = $('#date');
-    var cardNumber = $('#card');
-    var amount = $('#amount');
+
     
     // FETCHING DATA FROM JSON FILE 
     $.getJSON("js/data.json",  function (data) { 
