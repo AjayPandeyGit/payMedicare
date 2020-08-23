@@ -1,0 +1,21 @@
+{
+  "patientName": "Samantha Smith",
+  "practice": "Boston Medical Care,\n112 Turnpike RD, Westborough, MA",
+  "zipCode": "01581-2804",
+  "totalAmount": 73,
+  "previouslyPaid": 63,
+  "balanceDue": 10,
+  "pastTransactions": [{
+    "date": "07/29/2017",
+    "cardNumber": "xxx-xxx-xxx-7191",
+    "amount": 40
+  },
+  {
+    "date": "07/079/2017",
+    "cardNumber": "xxx-xxx-xxx-7191",
+    "amount": 23
+  }]
+}
+
+
+

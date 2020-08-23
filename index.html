@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayMedicare</title>
+    <!-- cdn bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12">
+                    <a href="index.html"><img src="images/logo.png" alt="PayMedicare"></a>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header ends-->
+    <section class="content-wrap">
+        <div class="container-fluid">
+            <div class="row">
+                        <div class="col-md-9 col-md-lg-9 col-sm-12 m-auto">
+                            <div class="balance-wrap">
+                                <h2>Current Balance</h2>
+                                <div class="patient-details">
+                                    <div class="patient-left">
+                                        <div class="patient-name-wrap">
+                                            <h5>Patient Name</h5>
+                                            <p id="pname"></p>
+                                        </div>
+                                        <div class="patient-practice-wrap">
+                                            <h5>Practice</h5>
+                                            <div class="practice-details"><p id="practice"> </p>, <span id="zipcode"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="patient-right">
+                                        <div class="transaction-info">
+                                            <ul>
+                                                <li>
+                                                    <span class="amount" id="totalAmount">$</span>
+                                                    <span class="amount-title">Total Amount</span>
+                                                </li>
+                                                <li>
+                                                    <span class="amount" id="prevPaid">$</span>
+                                                    <span class="amount-title">Previously Paid</span>
+                                                </li>
+                                                <li class="balance">
+                                                    <span class="amount" id="balance">$</span>
+                                                    <span class="amount-title">Balance Due</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="action-wrap">
+                                            <ul>
+                                                <li> <a href="#" class="link">View Statement Details</a></li>
+                                                <li> <button type="button">Pay by Card</button></li>
+                                                <li> <button type="button">Pay by Check</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="past-trans">
+                                    <h4>Past Transactions</h4>
+                                
+                                    <table class="table" id="trans">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Card</th>
+                                            <th scope="col">Amount</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section> <!-- content section ends -->
+    <footer class="footer">
+        <h2 class="footer-title">Discover the Smarter Way to Pay Online</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="images/pay-medical-icn.png" alt="">
+                    <h4>Pay your medical bills</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dam eu finibus nibh
+                        ac aliquam ex enean venenatis </p>
+                </div>
+                <div class="col text-center">
+                    <img src="images/access-icn.png" alt="">
+                    <h4>Access last statement electronically</h4>
+                    <p>Ipsum dolor sit amet, consectetur adipiscing elit dam eu finibus nibhac aliquam ex. Aenean  </p>
+                </div>
+                <div class="col text-center">
+                    <img src="images/get-statment-icn.png" alt="">
+                    <h4>Get e-Statements</h4>
+                    <p>Dolor sit amet, consectetur adipiscing elit feam eu finibus nibhac aliquam enean venenatis viverra daucibus</p>
+                </div>
+                <div class="col text-center">
+                    <img src="images/view-statment-icn.png" alt="">
+                    <h4>View statements, balance for multiple medicare practices</h4>
+                    <p>onsectetur adipiscing elit dam eu finibus nibh ac aliquam ex enean venenatis viverra ipisc </p>
+                </div>
+                <div class="col text-center">
+                    <img src="images/view-statment-icn.png" alt="">
+                    <h4>Track your medicarepay payments</h4>
+                    <p>Geac aliquam ex enean venenatis viverra faucibus onec at sapien sagittis tristique leo vitae, placerat dui. </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
+    <script src="js/app.js"></script>
+</body>
+</html>
